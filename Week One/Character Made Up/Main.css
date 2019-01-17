@@ -1,5 +1,53 @@
-HTML {background-color: aquamarine}
+body{
+    /* background-image: url("marilyn-monroe-sapphires-2.jpg");
+    opacity: 0.15; */
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+body {background-color: tomato}
+.overview, .skills {
+    position: relative;
+}
+.marilynImage {
+   position: fixed;
+    z-index: 0;
+    width: 100%;
+    opacity: 0.1;
+    background-color: tomato;
+}    
 p {
-    background:aquamarine
+    background:aquamarine;
     font-size: 24 px;
+    background-color: aquamarine
+}
+.definition {
+    display: inline-block;
+    background: #A2FFE7;
+    border-radius: 6px;
+    color:  #000;
+    text-align: left;
+    width:27%;
+    left:   750px;
+    position: relative;
+    top: 35%;
+}
+section{
+    display: inline-block;
+    background: #A2FFE7;
+    border-radius: 6px;
+    color: #000;
+    text-align: center;
+    width:32%;
+}
+header{
+    display: inline-block;
+    background: #A2FFE7;
+    border: 10px dashed rgb(98, 163, 147);
+    height: 90px;
+    width: 400px;
+    border-radius:  50px 20px;
+    color:#000;
+    text-align:  center;
+    width : 90%;
 }
