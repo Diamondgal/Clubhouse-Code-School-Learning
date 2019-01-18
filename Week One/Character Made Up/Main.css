@@ -5,49 +5,133 @@ body{
 body{
     font-family: 'PT Sans', sans-serif;
 }
-body {background-color: tomato}
+body{
+    background: radial-gradient(tomato,#702c1b);
+}
 .overview, .skills {
     position: relative;
 }
 .marilynImage {
-   position: fixed;
+   position: absolute;
     z-index: 0;
     width: 100%;
     opacity: 0.1;
     background-color: tomato;
-}    
+    ;
+    background-size: 100%;
+}   
+.marilynImage img{
+    width: 100%;
+} 
 p {
-    background:aquamarine;
     font-size: 24 px;
-    background-color: aquamarine
+
 }
+h1 {
+    text-align: center
+}
+
+.Sparklydiamond {
+    width: 23%;
+    left:9%;
+    position: absolute;
+    top: 194%;
+}
+.Sparklydiamond img {
+    border-radius: 20%;
+}
+
 .definition {
     display: inline-block;
     background: #A2FFE7;
     border-radius: 6px;
     color:  #000;
     text-align: left;
-    width:27%;
-    left:   750px;
-    position: relative;
-    top: 35%;
+    width: 23%;
+    right:0%;
+    position: absolute;
+    top: 221%;
+    
 }
 section{
     display: inline-block;
     background: #A2FFE7;
     border-radius: 6px;
     color: #000;
-    text-align: center;
-    width:32%;
+    text-align: centre;
+    width:33%;
 }
 header{
     display: inline-block;
     background: #A2FFE7;
-    border: 10px dashed rgb(98, 163, 147);
+    border: 8px;
+    padding: 7px;
+    margin: 0 5% 0 5%;
+    box-shadow: 4px 5px #20332E;
     height: 90px;
     width: 400px;
-    border-radius:  50px 20px;
+    border-radius:  75px 20px;
     color:#000;
     text-align:  center;
-    width : 90%;
+    width: 90%;
+    font-size: 130%
+    
+}
+ul{
+    list-style-type: none;
+    padding-left: 1px;
+}
+li {
+    margin: 0;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    position: relative;
+}
+li:after {
+    content: '';
+    height: .4em;
+    width: .4em;
+    background: tomato;
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    top: .25em;
+    left: 0;
+}
+/* .class, p{
+    display: inline-block;
+    background: #A2FFE7;
+    border-radius: 6px;
+    color: #000;
+    text-align: center;
+    width:90%;
+} */
+.content {
+    display: inline-block;
+    background: #A2FFE7;
+    border-radius: 6px;
+    color:  #000;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 10%;
+    margin: 46% 0 17% 0;
+}
+.abilties {
+    display: inline-block;
+    border-radius: 6px;
+    color:  #000;
+    text-align: center;
+    width: 99%;
+    position: relative;
+    top: 1%;
+    margin: 10% 0 -17% 0;
+}
+.end {
+    display: inline-block;
+    position: relative;
+    margin: 0 40% 0 40%;
+}
+dd {
+    margin-left:40px;
 }
