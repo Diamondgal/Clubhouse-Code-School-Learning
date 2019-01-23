@@ -1,6 +1,16 @@
 body {
     font-family: "Poppins",sans-serif;
     background: #F0F4F3;
+    width: 100vw;
+    height:100vh;
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    trans
+
+}
+body:hover {
+    background-color:   #D8DBDA;
 }
 .col-1{
     background:white;
@@ -12,7 +22,7 @@ body {
     border: 10px;
     border-radius: 10%;
     font:24px;
-    padding:    24px 15px;
+    padding:    232px 15px;
     height: 40%;
 
 
@@ -94,8 +104,8 @@ footer {
   .cube {
     position: relative;
     width:  95px;
-    left:44%;
-    bottom: -288px;
+    left:43%;
+    bottom: -327px;
   }
   .side {
     height: 95px;
@@ -125,8 +135,11 @@ footer {
     left:1%;
   }
   .demiformal img{
-    height: 168px;
-    width:  134px;
+    height: 226px;
+    width:  177px;
+    position:  fixed;
+    right:  1110px;
+    top:  50%;
   }
   .demifun {
     width:  100%;
